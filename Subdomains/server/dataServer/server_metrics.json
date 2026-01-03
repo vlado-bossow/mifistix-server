@@ -1,0 +1,22 @@
+{
+  "metrics": [
+    {
+      "cpu": 35.03,
+      "memory": 65.56,
+      "disk": 0.01,
+      "networkDownload": null,
+      "networkUpload": null,
+      "responseTime": 6237,
+      "uptime": 65,
+      "timestamp": "2025-12-28T11:49:55.738Z"
+    },
+    {
+      "cpu": 35.31,
+      "memory": 62,
+      "disk": 0.01,
+      "responseTime": 6729,
+      "uptime": 10,
+      "timestamp": "2025-12-27T21:01:40.689Z"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "server.js",
+    "Routes",
+    ".env",
+    "../../shared"
+  ],
+  "ext": "js,json,env",
+  "ignore": [
+    "node_modules",
+    "*.log"
+  ],
+  "delay": 500
+}
+

@@ -1,0 +1,51 @@
+# Caddy конфигурация для mifistix.pl поддоменов
+# Просто запустите: caddy run
+
+api.mifistix.pl {
+    reverse_proxy localhost:3001
+}
+
+id.mifistix.pl {
+    reverse_proxy localhost:3002
+}
+
+promo.mifistix.pl {
+    reverse_proxy localhost:3003
+}
+
+blog.mifistix.pl {
+    reverse_proxy localhost:3004
+}
+
+support.mifistix.pl {
+    reverse_proxy localhost:3005
+}
+
+test.mifistix.pl {
+    reverse_proxy localhost:3006
+}
+
+staging.mifistix.pl {
+    reverse_proxy localhost:3007
+}
+
+dev.mifistix.pl {
+    reverse_proxy localhost:3008
+}
+
+cron.mifistix.pl {
+    reverse_proxy localhost:3009
+}
+
+backup.mifistix.pl {
+    reverse_proxy localhost:3010
+}
+
+analytics.mifistix.pl {
+    reverse_proxy localhost:3011
+}
+
+mail.mifistix.pl {
+    reverse_proxy localhost:3012
+}
+

@@ -1,0 +1,28 @@
+{
+  "name": "social-db-server",
+  "version": "1.0.0",
+  "description": "VK-style social network file database",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "init": "node src/init.js",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "examples": "node examples/basic-usage.js",
+    "test": "node --experimental-vm-modules tests/index.js"
+  },
+  "keywords": [
+    "database",
+    "social",
+    "file-based"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

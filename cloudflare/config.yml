@@ -1,0 +1,31 @@
+tunnel: YOUR_TUNNEL_ID
+credentials-file: C:\Users\%USERNAME%\.cloudflared\YOUR_TUNNEL_ID.json
+
+ingress:
+  - hostname: api.mifistix.pl
+    service: http://localhost:3001
+  - hostname: id.mifistix.pl
+    service: http://localhost:3002
+  - hostname: promo.mifistix.pl
+    service: http://localhost:3003
+  - hostname: blog.mifistix.pl
+    service: http://localhost:3004
+  - hostname: support.mifistix.pl
+    service: http://localhost:3005
+  - hostname: test.mifistix.pl
+    service: http://localhost:3006
+  - hostname: staging.mifistix.pl
+    service: http://localhost:3007
+  - hostname: dev.mifistix.pl
+    service: http://localhost:3008
+  - hostname: cron.mifistix.pl
+    service: http://localhost:3009
+  - hostname: backup.mifistix.pl
+    service: http://localhost:3010
+  - hostname: analytics.mifistix.pl
+    service: http://localhost:3011
+  - hostname: mail.mifistix.pl
+    service: http://localhost:3012
+  - hostname: mifistix.pl
+    service: http://localhost:5000
+  - service: http_status:404
