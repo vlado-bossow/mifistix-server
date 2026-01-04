@@ -26,7 +26,7 @@ const PORT = 8484;
 // Инициализируем менеджеры
 const db = new DatabaseManager();
 const userManager = new UserManager();
-const postManager = new PostManager();
+const postManager = new PostManager(userManager); 
 const mediaManager = new MediaManager();
 const notificationsManager = new NotificationsManager(userManager);
 const moderatorsManager = new ModeratorsManager();

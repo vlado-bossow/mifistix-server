@@ -1,14 +1,13 @@
 import { ensureDir, readJson, writeJson, exists } from '../utils/fs.js';
 import { getPostPath, getPostShardPath } from '../utils/paths.js';
 import path from 'path';
-import { UserManager } from './UserManager.js';
 
 /**
  * Менеджер постов
  */
 export class PostManager {
-  constructor() {
-    this.userManager = new UserManager();
+  constructor(userManager) {
+    this.userManager = userManager;
   }
 
   /**
@@ -479,4 +478,3 @@ export class PostManager {
     return likes;
   }
 }
-
